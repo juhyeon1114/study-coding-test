@@ -5,10 +5,10 @@ void solution(List<List<Integer>> graph) {
 
 /**
  * BFS
- * - 큐 사용
+ * - 큐 사용: 방문할 노드를 등록하기 위한 큐
  * - 알고리즘
- * 1. 시작 노드 예약
- * 2. (while) 방문 - 예약
+ * 1. 시작 노드 등록
+ * 2. (while) 방문 -> 노드 예약
  */
 void bfs(int start, List<List<Integer>> graph, boolean[] visited) {
 	var queue = new ArrayDeque<Integer>();
