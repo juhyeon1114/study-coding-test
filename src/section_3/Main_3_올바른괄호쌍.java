@@ -1,5 +1,5 @@
 /**
- * 접근1: Queue 사용
+ * 접근1: Stack (LIFO, Push & Pop) 사용
  */
 public int solution(String s) {
 	int answer = 0;

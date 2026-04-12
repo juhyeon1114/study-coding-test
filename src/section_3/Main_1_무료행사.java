@@ -1,4 +1,10 @@
 /**
+ * Tip
+ * - HashSet의 초기화 방법: tempSet.addAll(Arrays.asList(prices));
+ * - HashSet 메서드: tempSet.contains(value);
+ */
+
+/**
  * 접근 1: 완전 탐색
  * - 기능적으로는 정상 동작하지만 시간 복잡도가 너무 큼
  */
